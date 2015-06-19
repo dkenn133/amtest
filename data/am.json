@@ -1,0 +1,87 @@
+{"gameData":{
+	"monsters":[
+			{"code":"sk", "name":"Skeleton","appearanceRate":"25"},	
+			{"code":"zo", "name":"zombie","appearanceRate":"50"},
+			{"code":"be", "name":"bear","appearanceRate":"24"},
+			{"code":"un", "name":"unicorn","appearanceRate":"1"}
+		],
+		
+		"weapons":[
+			{"code":"bs","name":"Broken Sword"},
+			{"code":"bk","name":"broken knife"},
+			{"code":"s","name":"sword"},
+			{"code":"k","name":"knife"},
+			{"code":"ha","name":"hatchet"},
+			{"code":"nu","name":"nun chucks"}
+		],
+		
+		"weaponDamages":[
+			{"mCode":"sk","wCode":"bs", "killRate":"20"},
+			{"mCode":"sk","wCode":"bk", "killRate":"30"},
+			{"mCode":"sk","wCode":"s", "killRate":"50"},
+			{"mCode":"sk","wCode":"k", "killRate":"70"},
+			{"mCode":"sk","wCode":"ha", "killRate":"80"},
+			{"mCode":"sk","wCode":"nu", "killRate":"90"},	
+			{"mCode":"zo","wCode":"bs", "killRate":"30"},
+			{"mCode":"zo","wCode":"bk", "killRate":"40"},
+			{"mCode":"zo","wCode":"s", "killRate":"60"},
+			{"mCode":"zo","wCode":"k", "killRate":"80"},
+			{"mCode":"zo","wCode":"ha", "killRate":"90"},
+			{"mCode":"zo","wCode":"nu", "killRate":"1"},
+			{"mCode":"be","wCode":"bs", "killRate":"10"},
+			{"mCode":"be","wCode":"bk", "killRate":"30"},
+			{"mCode":"be","wCode":"s", "killRate":"45"},
+			{"mCode":"be","wCode":"k", "killRate":"60"},
+			{"mCode":"be","wCode":"ha", "killRate":"75"},
+			{"mCode":"be","wCode":"nu", "killRate":"90"},
+			{"mCode":"un","wCode":"bs", "killRate":"01"},
+			{"mCode":"un","wCode":"bk", "killRate":"10"},
+			{"mCode":"un","wCode":"s", "killRate":"25"},
+			{"mCode":"un","wCode":"k", "killRate":"30"},
+			{"mCode":"un","wCode":"ha", "killRate":"40"},
+			{"mCode":"un","wCode":"nu", "killRate":"50"}
+
+		],
+		"dropRates":
+		[
+			{"mCode":"sk",
+				"weaponRate":[
+				              {"wCode":"k", "dropRate":"50"},
+				              {"wCode":"ha", "dropRate":"25"},				
+				              {"wCode":"bs", "dropRate":"24"},
+				              {"wCode":"nu", "dropRate":"1"}
+				 ],
+				 "nothingRate":"0"
+			},
+			{"mCode":"zo",
+				"weaponRate":[
+				            {"wCode":"bk", "dropRate":"50"},
+				            {"wCode":"ha", "dropRate":"20"},				
+				        	{"wCode":"k", "dropRate":"4"},
+				        	{"wcode":"nu","dropRate":"1"}
+				 ],
+				 "nothingRate":"25"
+			},
+			
+			{"mCode":"be",
+				"weaponRate":[
+				            {"wCode":"bk", "dropRate":"50"},
+				            {"wCode":"ha", "dropRate":"30"},				
+				        	{"wCode":"k", "dropRate":"19"},
+				        	{"wcode":"nu","dropRate":"1"}
+				 ],
+				 "nothingRate":"0"
+			},
+			
+			{"mCode":"un",
+				"weaponRate":[
+				            {"wCode":"bk", "dropRate":"0"},
+				            {"wCode":"ha", "dropRate":"0"},				
+				        	{"wCode":"k", "dropRate":"0"},
+				        	{"wcode":"nu","dropRate":"99"}
+				 ],
+				 "nothingRate":"1"
+			}
+		]
+	}
+}	

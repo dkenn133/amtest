@@ -1,0 +1,20 @@
+<div id="monsterEncounter" class="monsterEncounter">
+	<span>
+		
+	 You have encountered a:&nbsp;{{monsterName}}
+	</span><br>
+	{{#ifCond monsterCode 'be'}}
+		<img src="img/bear.png" width="75px" height="150px">
+	{{/ifCond}}
+	{{#ifCond monsterCode 'un'}}
+		<img src="img/unicorn.png" width="75px" height="150px">
+	{{/ifCond}}
+	{{#ifCond monsterCode 'sk'}}
+		<img src="img/skelly.png" width="75px" height="150px">
+	{{/ifCond}}
+	{{#ifCond monsterCode 'zo'}}
+		<img src="img/zombie.png" width="75px" height="150px">
+	{{/ifCond}}
+	<br><br>
+	<button onclick="goMonsterBattle()">Press to Continue</button>
+</div>

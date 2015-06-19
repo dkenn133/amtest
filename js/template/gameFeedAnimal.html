@@ -1,0 +1,15 @@
+<div id="getFood" class="getFood">
+	<div>
+	<br>
+	Hi,&nbsp;{{name}}!<br><br>
+		Click on a food to feed your Animal:<br><br><br>
+		<!-- <input id="animalFood" type="text"></input> -->
+		<!-- <button onclick="setFood(animalFood.value)">Save</button> -->
+		<img id="imgmelon" src="img/melon.png" alt="watermelon.png" height="42" width="42" onclick="selectFood('melon')">
+		<img id="imgshake" src="img/pie.png" alt="milkshake.gif" height="42" width="42" onclick="selectFood('pie')">
+		<img id="imgtaco" src="img/taco.png" alt="taco.png" height="42" width="42" onclick="selectFood('taco')">
+	</div>
+	<div>
+	{{foodBonusMessage}}
+	</div>
+</div>

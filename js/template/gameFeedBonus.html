@@ -1,0 +1,35 @@
+<div id="foodBonus" class="FoodBonus">
+	<div>
+	<br><br>
+		{{#if foodBonus}}
+			{{#ifCond food 'melon'}}
+    			<img id="imgmelon" src="img/melon.png" alt="watermelon.png" height="90" width="90" border-style="solid" border-width="medium">
+			{{else}}
+    			<img id="imgmelon" src="img/melon.png" alt="watermelon.png" height="42" width="42">
+			{{/ifCond}}
+			{{#ifCond food 'shake'}}
+				<img id="imgshake" src="img/pie.png" alt="milkshake.gif" height="90" width="90" border-style="solid" border-width="medium">
+			{{else}}
+				<img id="imgshake" src="img/pie.png" alt="milkshake.gif" height="42" width="42">
+			{{/ifCond}}
+			{{#ifCond food 'taco'}}
+				<img id="imgtaco" src="img/taco.png" alt="taco.png" height="90" width="90" border-style="solid"  border-width="medium">
+			{{else}}
+				<img id="imgtaco" src="img/taco.png" alt="taco.png" height="42" width="42">
+			{{/ifCond}}
+		{{else}}
+			<img id="imgmelon" src="img/melon.png" alt="watermelon.png" height="42" width="42">
+			<img id="imgshake" src="img/pie.png" alt="milkshake.gif" height="42" width="42">
+			<img id="imgtaco" src="img/taco.png" alt="taco.png" height="42" width="42">
+		{{/if}}
+	</div>
+	<div>
+	{{#if foodBonusMessage}}
+		{{foodBonusMessage}}
+	{{else}}
+		Sorry you missed the food bonus. Better luck next time.
+	{{/if}}		
+	</div>
+	<br><br>
+	<button onclick="goFoundWeapon()">Press to Continue</button>
+</div>

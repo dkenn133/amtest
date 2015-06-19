@@ -1,0 +1,86 @@
+.headerPane
+{
+	text-align: center;
+	vertical-align: middle;
+	color:white;
+	font-size:300%;
+	
+	height:200px;
+	width:1200px;
+	background-image: url("../img/header_dark.jpg");
+	background-size: 1200px 200px;
+    background-repeat: no-repeat;
+	/*border-style: double;*/
+}
+
+.gamePane
+{
+	/*vertical-align:middle;*/
+	text-align: center;
+	height:400px;
+	width:1200px;
+	/*background-image: url("../img/annimal.png");
+	background-size: 1200px 400px;
+    background-repeat: no-repeat;*/
+	/*border-style: double;*/
+}
+
+.gameInit_Desc{
+	
+	font-size:x-large;
+	/*background-color:blue;*/
+	color:red
+}
+
+.gameInit{
+	/*	background-image: url("../img/annimal.png");
+		background-size: 1200px 400px;
+    	background-repeat: no-repeat; */
+		height:400px;
+		width:1200px;
+	}
+
+
+.infoPane
+{
+	vertical-align:middle;
+	text-align: center;
+	height:50px;
+	width:1000px;
+	border-style: solid;
+}
+
+.footerPane
+{
+	/*background-image: url("../img/footer-image.png");
+	background-size: 1000px 100px;
+    background-repeat: no-repeat;*/
+    background-color:black;
+    color:white;
+	height:100px;
+	width:1200px;
+	/*border-style: double;*/
+}
+.footerContent
+{
+	text-align:right;
+	font-size:120%;
+}
+
+/*.gameView
+{
+	display:inline-block;
+}*/
+.gameControl
+{
+	display:inline-block;
+	width:580px;
+	height:400px;
+}
+.gameDisplay
+{
+	border-left: 1px solid black;
+	display:inline-block;
+	width:580px;
+	height:400px;
+}
